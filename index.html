@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Todo List</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav class="container">
+                <h1 class="cabecalho__titulo">Todo List</h1>
+            </nav>
+        </header>
+        
+        <main class="principal">
+            <div>
+                <div class="principal__busca container">
+                    <label for="campo-adicionarTarefa">Adicionar Tarefa</label>
+                    <input type="text" id="campo-adicionarTarefa" name="campo-adicionarTarefa" placeholder="Digite o nome da tarefa">
+                    <input class="principal__botao" type="button" value="Salvar tarefa">
+                </div>
+
+                <div class="principal__tarefas container">
+                    <div>
+                        <ul class="principal__lista">
+                            <li class="principal__item">
+                                <input type="checkbox" id="principal__concluirTarefa" class="principal__checkbox">
+                                <label class="principal__label" for="principal__concluirTarefa">
+                                    <p class="principal__nome-tarefa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita.</p>
+                                </label>
+                            </li>
+                            <li class="principal__item">
+                                <input type="checkbox" id="principal__concluirTarefa" class="principal__checkbox">
+                                <label for="principal__concluirTarefa">
+                                    <p class="principal__nome-tarefa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita.</p>
+                                </label>
+                            </li>
+                            <li class="principal__item">
+                                <input type="checkbox" id="principal__concluirTarefa" class="principal__checkbox">
+                                <label for="principal__concluirTarefa">
+                                    <p class="principal__nome-tarefa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita.</p>
+                                </label>
+                            </li>
+                            <li class="principal__item">
+                                <input type="checkbox" id="principal__concluirTarefa" class="principal__checkbox">
+                                <label for="principal__concluirTarefa">
+                                    <p class="principal__nome-tarefa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita.</p>
+                                </label>
+                            </li>
+                            <li class="principal__item">
+                                <input type="checkbox" id="principal__concluirTarefa" class="principal__checkbox">
+                                <label for="principal__concluirTarefa">
+                                    <p class="principal__nome-tarefa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita.</p>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="principal__tarefas-concluidas container">
+                    <ul class="principal__lista-concluidas">
+                        <li class="principal__lista-concluidas-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, odio!</li>
+                        <li class="principal__lista-concluidas-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, odio!</li>
+                        <li class="principal__lista-concluidas-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, odio!</li>
+                        <li class="principal__lista-concluidas-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, odio!</li>
+                        <li class="principal__lista-concluidas-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, odio!</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="rodape">
+            <div class="container">
+                <p class="rodape__texto">Desenvolvido por David Ricardo da Silva</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

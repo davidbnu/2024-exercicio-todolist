@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #211951;
+    --cor-secundaria: #836FFF;
+    --cor-terciaria: #15F5BA;
+    --cor-destaque: #F0F3FF;
+
+    --font: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.cabecalho__titulo {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+.principal__busca {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.campo-adicionarTarefa {
+    font-size: 2rem;
+}
+
+#campo-adicionarTarefa {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    width: 50%;
+    color: var(--cor-principal);
+    background-color: var(--cor-destaque);
+}
+
+#campo-adicionarTarefa:focus {
+    background-color: var(--cor-terciaria);
+    outline: none;
+}
+
+.principal__botao {
+    font-size: 1.2rem;
+    border: 1px solid var(--cor-secundaria);
+    padding: 0.5rem 1rem;
+}
+
+.principal__botao:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque);
+    cursor: pointer;
+}
+
+.principal__tarefas {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+.principal__label, .principal__nome-tarefa, .principal__checkbox {
+    display: inline-block;
+}
+
+.principal__lista {
+    padding: 2rem 0;
+}
+
+.principal__item {
+    padding: 1rem 0;
+}
+
+.principal__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.principal__nome-tarefa {
+    font-size: 1.5rem;
+}
+
+.principal__tarefas {
+    padding: 2rem 8rem;
+    border: 2px solid var(--cor-destaque);
+}
+
+.principal__tarefas-concluidas {
+    padding: 2rem 8rem;
+    border: 2px solid var(--cor-destaque);
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    margin-top: 3rem;
+
+}
+
+
+.principal__lista-concluidas-item {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.rodape {
+    padding: 1rem 0;
+}
+
+.rodape__texto {
+    text-align: center;
+    font-size: 1rem;
+}
